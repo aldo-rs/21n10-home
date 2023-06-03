@@ -3,22 +3,40 @@
 const path = require('path')
 const autoprefixer = require('autoprefixer')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const webpack = require("webpack");
 
 module.exports = {
   mode: 'development',
-  entry: './src/js/main.js',
-  output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'dist')
+  entry: {
+    app: './src/js/main.js',
+    // Runtime code for hot module replacement
+    hot: 'webpack/hot/dev-server.js',
+    // Dev server client for web socket transport, hot and live reload logic
+    client: 'webpack-dev-server/client/index.js?hot=true&live-reload=true',
   },
+  devtool: 'inline-source-map',
   devServer: {
-    static: path.resolve(__dirname, 'dist'),
+    static: './dist',
     port: 8080,
-    hot: true
+    hot: false,
+    client: false,
+    watchFiles: ["src/*.html"],
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: './src/index.html' , favicon: "./src/js/favicon.ico", inject: "body"})
+    new HtmlWebpackPlugin({ 
+      template: './src/index.html' , 
+      favicon: './src/js/favicon.ico', 
+      inject: 'body',
+      title: 'Development'
+    }),
+    // Plugin for hot module replacement
+    new webpack.HotModuleReplacementPlugin(),
   ],
+  output: {
+    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+    clean: true,
+  },
   module: {
     rules: [
       {
