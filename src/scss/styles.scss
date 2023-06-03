@@ -1,2 +1,14 @@
+// Your variable overrides
+$body-bg: #000;
+$body-color: green;
+$primary: #0074d9;
+
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
+
+.navbar-brand {
+    color: red;
+}
+
+
+

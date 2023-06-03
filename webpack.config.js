@@ -20,7 +20,7 @@ module.exports = {
     port: 8080,
     hot: false,
     client: false,
-    watchFiles: ["src/*.html"],
+    watchFiles: ['src/*.html', 'src/scss/*.scss'],
   },
   plugins: [
     new HtmlWebpackPlugin({ 
