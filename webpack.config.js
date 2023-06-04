@@ -70,7 +70,11 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|jpeg|ico|gif)$/i,
         type: 'asset/resource',
-      }
+      },
+      {
+        test: /\.html$/i,
+        loader: "html-loader",
+      },
     ]
   }
 }

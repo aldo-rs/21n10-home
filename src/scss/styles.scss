@@ -1,14 +1,22 @@
 // Your variable overrides
-$body-bg: #000;
-$body-color: green;
-$primary: #0074d9;
+$font-family-sans-serif: "Work Sans",sans-serif;
 
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
 
 .navbar-brand {
-    color: red;
+    font-family: "Poppins",sans-seri;
+    font-weight: 100;
+    font-size: 2rem;
 }
 
+.nav-link {
+  color: black;
+  font-weight: 300;
+}
 
-
+.btn {
+   color: black; 
+   font-weight: 300;
+   border-width: thin;
+}
