@@ -1,21 +1,27 @@
 // Your variable overrides
-$font-family-sans-serif: "Work Sans",sans-serif;
+$font-family-sans-serif: "Work Sans", sans-serif;
 
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
 
 .navbar-brand {
   font-family: serif;
-    font-weight: 500;
-    font-size: 3rem;
+  font-weight: 500;
+  font-size: 2.5rem;
 }
 
 .nav-link {
   color: black;
-  font-weight: 300;
+
+}
+
+.nav-link:hover {
+  color: black;
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 .btn {
-   font-weight: 300;
-   border-width: thin;
+  font-weight: 300;
+  border-width: thin;
 }
