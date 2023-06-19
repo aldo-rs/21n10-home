@@ -82,3 +82,13 @@ homePhotoImages.forEach((homePhoto, index) => {
     pswp.init(); // initializing PhotoSwipe core adds it to DOM
   }
 });
+
+const swipeHomePhotoImages = document.querySelectorAll('.swiper-wrapper img');
+
+swipeHomePhotoImages.forEach((homePhoto, index) => {
+  homePhoto.onclick = () => {
+    options.index = index; // defines start slide index
+    const pswp = new PhotoSwipe(options);
+    pswp.init(); // initializing PhotoSwipe core adds it to DOM
+  }
+});
