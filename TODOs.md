@@ -7,3 +7,10 @@
 * ~~Integrar swiper (mobile first).~~
 * ~~Ocultar las fotos visualizadas con Swiper, cuando el dispositivo no es mobile.~~
 * ~~Mostrar las fotos en un grid cuando el dispositivo NO es mobile.~~
+
+
+# 19/06/2023
+
+## TODO
+
+* Abrir las fotos con photoswipe.

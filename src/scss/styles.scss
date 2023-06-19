@@ -27,12 +27,9 @@ $font-family-sans-serif: "Work Sans", sans-serif;
   line-height: 39px;
   border-radius: 3px;
   transition: 0.4s ease-in-out;
-}
-
-.btn:hover {
-
   color: white;
-  background-color: black;
+  background-color: #000;
+  border-radius: 0;
 }
 
 .border-dark {
@@ -48,6 +45,14 @@ $font-family-sans-serif: "Work Sans", sans-serif;
 
 .img-fluid:hover {
   cursor: pointer;
+}
+
+.m-text-underline {
+  color: black;
+  text-underline-position: under;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-decoration-color: #dfbc00;
 }
 
 // Swiper styles
