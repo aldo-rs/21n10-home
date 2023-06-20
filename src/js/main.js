@@ -26,7 +26,7 @@ const options = {
     {
       name: 'name1',
       src: new URL(
-        '20230510_125536.jpg?as=webp&width=2000',
+        '../assets/images/appartment/20230510_125536.jpg?as=webp&width=2000',
         import.meta.url
       ),
       width: 2916,
@@ -35,7 +35,7 @@ const options = {
     },
     {
       src: new URL(
-        'living-room-2.jpg?as=webp&width=1620',
+        '../assets/images/appartment/living-room-2.jpg?as=webp&width=1620',
         import.meta.url
       ),
       width: 1950,
@@ -44,7 +44,7 @@ const options = {
     },
     {
       src: new URL(
-        'room-1.jpg?as=webp&width=1620',
+        '../assets/images/appartment/room-1.jpg?as=webp&width=1620',
         import.meta.url
       ),
       width: 1950,
@@ -53,7 +53,7 @@ const options = {
     },
     {
       src: new URL(
-        'room-2.jpg?as=webp&width=1620',
+        '../assets/images/appartment/room-2.jpg?as=webp&width=1620',
         import.meta.url
       ),
       width: 1950,
@@ -62,7 +62,7 @@ const options = {
     },
     {
       src: new URL(
-        '20230510_085451.jpg?as=webp&width=1890',
+        '../assets/images/appartment/20230510_085451.jpg?as=webp&width=1890',
         import.meta.url
       ),
       width: 1890,
