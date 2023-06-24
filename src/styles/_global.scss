@@ -9,5 +9,13 @@ h3,
 h4,
 h5,
 h6 {
-    letter-spacing: 0.085em;
+    letter-spacing: 0.14rem;
+}
+
+#gallary-2 {
+    background-color: lighten($color-secundary, 5%);
+}
+
+.h-add {
+    font-size: 3.0rem;
 }
