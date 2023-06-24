@@ -13,4 +13,12 @@
 
 ## TODO
 
-* Abrir las fotos con photoswipe.
+* ~~Abrir las fotos con photoswipe~~.
+
+# 24/06/2023
+
+## TODO
+
+* Definir guía de estilos.
+* Refactorizar layout.
+
