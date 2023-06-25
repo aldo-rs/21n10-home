@@ -9,13 +9,40 @@ h3,
 h4,
 h5,
 h6 {
-    letter-spacing: 0.14rem;
+    letter-spacing: 0.01rem;
 }
 
 #gallary-2 {
-    background-color: lighten($color-secundary, 5%);
+    background-color: lighten($color-secundary, 10%);
+    //#e3e0ca
 }
 
 .h-add {
     font-size: 3.0rem;
 }
+
+.bg-primary {
+    //height: 350px;
+    /*background-image: url(../assets/images/la-habana.jpg);
+    background-size: cover;
+    background-position: center;*/
+  }
+
+  .cta {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/la-habana.jpg") scroll center center;
+    background-size: cover;
+    background-position: 80% 80%;
+    padding: 190px 0;
+  }
+
+  .location {
+    background-color: darken($color-secundary, 15%);
+  }
+
+  .close-places {
+   background-color: $gray-100;
+  }
+
+  footer {
+    //background-color: darken($color-secundary, 5%);
+  }

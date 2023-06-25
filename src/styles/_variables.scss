@@ -1,5 +1,10 @@
 $color-primary: #B65F4D !default;
 $color-secundary: #E5DEB4;
-$color-tertiary: #1e1e1e;
+$color-tertiary: #363435;
 
+// Bootstrap default variable overrides
 $headings-font-family: 'Times New Roman', Times, serif;
+$body-color: $color-tertiary;   
+
+$link-color: red;
+$nav-link-color: green;

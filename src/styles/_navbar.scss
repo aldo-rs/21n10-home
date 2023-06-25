@@ -2,15 +2,17 @@
     @include heading-font;
     font-weight: 500;
     font-size: 2.4rem;
+    color: $color-tertiary;
 }
 
 .nav-link {
-    color: black;
+    color: $color-tertiary;
 }
 
 .nav-link:hover {
-    color: black;
+    color: $color-tertiary;
     text-decoration: underline;
     text-underline-position: under;
     text-decoration-thickness: 1px;
+    text-decoration-color: $color-tertiary;
 }
