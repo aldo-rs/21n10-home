@@ -1,62 +1,54 @@
 body {
-    overflow-x: hidden;
-    @include body-font;
+  overflow-x: hidden;
+  @include body-font;
 }
 
 h1,
 h2,
 h3,
-h4,
+h4, 
 h5,
 h6 {
-    letter-spacing: 0.01rem;
+  letter-spacing: 0.01rem;
 }
 
-#gallary-1, #gallary-2 {
-    background-color: lighten($color-secundary, 10%);
-    //#e3e0ca
+#gallary-1,
+#gallary-2 {
+  background-color: lighten($color-secundary, 10%);
+  //#e3e0ca
 }
 
 .h-add {
-    font-size: 3.3rem;
+  font-size: 3.3rem;
 }
 
 .bg-primary {
-    //height: 350px;
-    /*background-image: url(../assets/images/la-habana.jpg);
+  //height: 350px;
+  /*background-image: url(../assets/images/la-habana.jpg);
     background-size: cover;
     background-position: center;*/
-  }
+}
 
-  .cta {
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/la-habana.jpg") scroll center center;
-    background-size: cover;
-    background-position: 80% 80%;
-    padding: 190px 0;
-  }
+.cta {
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/la-habana.jpg") scroll center center;
+  background-size: cover;
+  background-position: 80% 80%;
+  padding: 190px 0;
+}
 
-  .location {
-    background-color: darken($color-secundary, 8%);
-  }
+.location {
+  background-color: $color-secundary;
+}
 
-  .close-places {
-   background-color: $gray-100;
-  }
+.close-places {
+  background-color: $gray-100;
+}
 
-  footer {
-    //background-color: darken($color-secundary, 5%);
-  }
+footer {
+  //background-color: darken($color-secundary, 5%);
+}
 
-  #general-description {
-    .container {
-      //padding: 0 8rem;
-    }
-  }
 
-  #services {
-
-  }
-
-  .row.i {
-
-  }
+.ff-normal {
+  @include body-font;
+}
