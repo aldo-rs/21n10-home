@@ -148,3 +148,5 @@ sftp-config.json
 .vscode/
 
 .parcel-cache/
+
+.cache
