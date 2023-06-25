@@ -1,5 +1,6 @@
 // Import all of Bootstrap's JS
 import * as bootstrap from 'bootstrap'
+import '@fortawesome/fontawesome-free/css/all.css'
 
 // core version + navigation, pagination modules:
 import Swiper, { Navigation, Pagination } from 'swiper';

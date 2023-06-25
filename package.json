@@ -18,8 +18,10 @@
     "swiper": "^9.4.1"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
     "@parcel/transformer-sass": "^2.9.2",
     "parcel": "^2.9.2",
+    "parcel-bundler": "^1.12.5",
     "sharp": "^0.31.3"
   }
 }
