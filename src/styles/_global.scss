@@ -12,7 +12,7 @@ h6 {
     letter-spacing: 0.01rem;
 }
 
-#gallary-2 {
+#gallary-1, #gallary-2 {
     background-color: lighten($color-secundary, 10%);
     //#e3e0ca
 }
@@ -36,7 +36,7 @@ h6 {
   }
 
   .location {
-    background-color: darken($color-secundary, 15%);
+    background-color: darken($color-secundary, 8%);
   }
 
   .close-places {
@@ -45,4 +45,14 @@ h6 {
 
   footer {
     //background-color: darken($color-secundary, 5%);
+  }
+
+  #general-description {
+    .container {
+      //padding: 0 8rem;
+    }
+  }
+
+  #services {
+
   }
