@@ -52,3 +52,8 @@ footer {
 .ff-normal {
   @include body-font;
 }
+
+.responsive-iframe {
+  width: 100%;
+
+}
