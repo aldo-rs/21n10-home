@@ -10,5 +10,9 @@
 #prices {
     .card {
         border-top-width: 4px !important;
+
+        .fw-normal {
+            font-weight: 500 !important;
+        }
     }
 }
