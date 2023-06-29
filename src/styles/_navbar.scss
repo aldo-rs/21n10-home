@@ -16,3 +16,54 @@
     text-decoration-thickness: 1px;
     text-decoration-color: $color-tertiary;
 }
+
+.navbar-toggler {
+    border: 0;
+
+    &:focus {
+        box-shadow: none;
+    }
+
+    span {
+        display: block;
+        background-color: $color-tertiary;
+        height: 2px;
+        width: 30px;
+        margin-top: 0;
+        margin-bottom: 7px;
+        position: relative;
+        left: 0;
+        opacity: 1;
+        transition: all 0.35s ease-out;
+        transform-origin: center left;
+
+        &:nth-child(1) {
+            transform: translate(0%, 0%) rotate(0deg);
+            margin-top: 0.3em;
+        }
+
+        &:nth-child(2) {
+            opacity: 1;
+        }
+
+        &:nth-child(3) {
+            transform: translate(0%, 0%) rotate(0deg);
+        }
+    }
+
+    &:not(.collapsed) {
+        span {
+            &:nth-child(1) {
+                transform: translate(15%, -33%) rotate(40deg);
+            }
+
+            &:nth-child(2) {
+                opacity: 0;
+            }
+
+            &:nth-child(3) {
+                transform: translate(15%, 33%) rotate(-40deg);
+            }
+        }
+    }
+}
