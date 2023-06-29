@@ -18,15 +18,16 @@ h6 {
   //#e3e0ca
 }
 
-.h-add {
-  font-size: 3.3rem;
+#gallary-1 {
+  h1 {
+    font-size: 2.0rem;
+  }
 }
 
-.bg-primary {
-  //height: 350px;
-  /*background-image: url(../assets/images/la-habana.jpg);
-    background-size: cover;
-    background-position: center;*/
+#gallary-2 {
+  h1 {
+    font-size: 3.2rem;
+  }
 }
 
 .cta {
@@ -43,11 +44,6 @@ h6 {
 .bg-gray {
   background-color: $gray-100;
 }
-
-footer {
-  //background-color: darken($color-secundary, 5%);
-}
-
 
 .ff-normal {
   @include body-font;

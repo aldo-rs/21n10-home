@@ -19,8 +19,10 @@
 
 <body>
     <nav class="navbar navbar-expand-md">
-        <div class="container px-4 px-lg-5">
+        <div class="container px-lg-5">
             <a class="navbar-brand" href="#!">21n10</a>
+            <a class="btn btn-primary d-xs-block d-sm-block d-md-none ms-auto" href="#contact"
+                role="button">Contactar</a>
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -33,42 +35,53 @@
                     <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
                     <li class="nav-item"><a class="nav-link" href="#prices">Precios</a></li>
                 </ul>
-                <a class="btn btn-primary" href="#contact" role="button">Contactar</a>
+                <a class="btn btn-primary d-none d-xs-none d-sm-none d-md-block" href="#contact"
+                    role="button">Contactar</a>
             </div>
         </div>
     </nav>
 
-    <section id="gallary-1" class="py-2 d-xs-block d-sm-block d-md-none">
-        <div class="container px-4 px-lg-5 my-2">
-            <h1 class="h-add font-weight-bold">Apartamento en El Vedado, La Habana</h1>
-            <!-- Slider main container -->
-            <div class="swiper">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide slide_1">
-                        <img class="img-fluid object-fit-cover" src="./assets/images/appartment/living-room.jpg"
-                            alt="..." />
-                    </div>
-                    <div class="swiper-slide slide_2">
-                        <img class="img-fluid object-fit-cover" src="./assets/images/appartment/living-room-2.jpg"
-                            alt="..." />
-                    </div>
-                    <div class="swiper-slide slide_3">
-                        <img class="img-fluid object-fit-cover" src="./assets/images/appartment/room-1.jpg" alt="..." />
-                    </div>
-                    <div class="swiper-slide slide_4">
-                        <img class="img-fluid object-fit-cover" src="./assets/images/appartment/room-2.jpg" alt="..." />
-                    </div>
-                    <div class="swiper-slide slide_5">
-                        <img class="img-fluid object-fit-cover" src="./assets/images/appartment/living-room.jpg"
-                            alt="..." />
-                    </div>
+    <section id="gallary-1" class="d-xs-block d-sm-block d-md-none">
+        <div class="container p-0">
+            <div class="row">
+                <div class="col">
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide slide_1">
+                                <img class="img-fluid object-fit-cover" src="./assets/images/appartment/living-room.jpg"
+                                    alt="..." />
+                            </div>
+                            <div class="swiper-slide slide_2">
+                                <img class="img-fluid object-fit-cover"
+                                    src="./assets/images/appartment/living-room-2.jpg" alt="..." />
+                            </div>
+                            <div class="swiper-slide slide_3">
+                                <img class="img-fluid object-fit-cover" src="./assets/images/appartment/room-1.jpg"
+                                    alt="..." />
+                            </div>
+                            <div class="swiper-slide slide_4">
+                                <img class="img-fluid object-fit-cover" src="./assets/images/appartment/room-2.jpg"
+                                    alt="..." />
+                            </div>
+                            <div class="swiper-slide slide_5">
+                                <img class="img-fluid object-fit-cover" src="./assets/images/appartment/living-room.jpg"
+                                    alt="..." />
+                            </div>
 
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
                 </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
+                <div class="col">
+                    <h1 class="mt-2 ms-2">Precioso apartamento en El Vedado</h1>
+                </div>
             </div>
+
+            
         </div>
     </section>
 
