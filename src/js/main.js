@@ -87,6 +87,7 @@ const swiper = new Swiper('.swiper', {
   //autoHeight: true, //enable auto height
   pagination: {
     el: ".swiper-pagination",
+    dynamicBullets: true,
   },
 });
 
