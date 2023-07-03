@@ -19,6 +19,18 @@
 
 ## TODO
 
-* Definir guía de estilos.
-* Refactorizar layout.
+* ~~Definir guía de estilos~~.
+* ~~Refactorizar layout~~.
+
+# 03/07/2023
+
+## TODO
+
+* Preparar diferentes versiones de una foto, dependiendo del dispositivo.
+* logo.
+
+# Improvements
+
+* Contact form.
+* A dedicated page for the photos.
 

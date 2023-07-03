@@ -6,6 +6,7 @@
   "scripts": {
     "start": "parcel --open --no-cache",
     "build": "parcel build src/index.html --public-url ./",
+    "build-and-report": "parcel build src/index.html --reporter @parcel/reporter-bundle-analyzer",
     "prebuild": "rm -rf dist"
   },
   "keywords": [],
@@ -19,8 +20,9 @@
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
-    "@parcel/transformer-sass": "^2.9.2",
-    "parcel": "^2.9.2",
+    "@parcel/reporter-bundle-analyzer": "^2.9.3",
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3",
     "parcel-bundler": "^1.12.5",
     "sharp": "^0.31.3"
   }
