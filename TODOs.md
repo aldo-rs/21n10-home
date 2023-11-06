@@ -24,10 +24,27 @@
 
 # 03/07/2023
 
-## TODO
+## TODO
 
 * Preparar diferentes versiones de una foto, dependiendo del dispositivo. (https://www.printsgicleeshop.com/image-resize-calculator/)
 * logo.
+
+# 03/10/2023
+
+## TODO
+
+* ~~Mejorar texto grande al inicio, cerca de las fotos.~~
+* Fotos:
+  - ~~Quitar foto de la fallada.~~
+  - Poner fotos de la cocina.
+* Mejorar descripción general:
+  - ~~Datos exactos del piso: metros cuadrados.~~
+  - Mejorar redacción reslatando lo excepcional del apartmento.
+* ~~Equipamiento: poner descripción exacta.~~
+* ~~Cambiar imagen de la habana en el banner. Poner una de 23 y 12.~~
+* ~~Cambiar los precios.~~
+* Poner bien los datos de contacto.
+
 
 # Improvements
 

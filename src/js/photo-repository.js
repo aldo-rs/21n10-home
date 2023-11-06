@@ -124,15 +124,6 @@ const PHOTOS = [
     },
     // bathroom
     {
-        id: '80bf8da4-e825-4e34-b69b-807551a09049',
-        src: new URL(
-            '../assets/images/appartment/80bf8da4-e825-4e34-b69b-807551a09049.jpg?as=webp&width=1000',
-            import.meta.url
-        ),
-        width: 1000,
-        height: 1777
-    },
-    {
         id: '10cbde8a-36d1-4abe-a30c-575499b158a0',
         src: new URL(
             '../assets/images/appartment/10cbde8a-36d1-4abe-a30c-575499b158a0.jpg?as=webp&width=1000',
@@ -161,15 +152,6 @@ const PHOTOS = [
         height: 1777
     },
     {
-        id: '50845662-e052-464f-9226-01f51b5c8bda',
-        src: new URL(
-            '../assets/images/appartment/50845662-e052-464f-9226-01f51b5c8bda.jpg?as=webp&width=1500',
-            import.meta.url
-        ),
-        width: 1500,
-        height: 843
-    },
-    {
         id: '1830228b-f566-4ca0-ab0c-19f14921f90e',
         src: new URL(
             '../assets/images/appartment/1830228b-f566-4ca0-ab0c-19f14921f90e.jpg?as=webp&width=1500',
@@ -177,16 +159,7 @@ const PHOTOS = [
         ),
         width: 1500,
         height: 843
-    },
-    {
-        id: '6469436c-dc70-40f9-abd9-dcdc44b9f407',
-        src: new URL(
-            '../assets/images/appartment/6469436c-dc70-40f9-abd9-dcdc44b9f407.jpg?as=webp&width=1500',
-            import.meta.url
-        ),
-        width: 1500,
-        height: 839
-    },
+    }
 ];
 
 const photoRepository = {

@@ -12,10 +12,22 @@ h6 {
   letter-spacing: 0.01rem;
 }
 
+a {
+  color: #000;
+
+  &:hover {
+    color: darken($color-primary, 10%);
+  }
+}
+
+ul li {
+  margin-bottom: 1rem;
+}
+
+
 #gallary-1,
 #gallary-2 {
-  background-color: lighten($color-secundary, 10%);
-  //#e3e0ca
+  background-color: lighten($color-secundary, 5%);
 }
 
 #gallary-1 {
@@ -30,11 +42,18 @@ h6 {
   }
 }
 
+#banner {
+  h1 {
+   font-size: 3.0rem;
+  }
+}
+
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/la-habana.jpg?as=webp") scroll center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/23-y-12.jpg?as=webp") scroll center center;
   background-size: cover;
-  background-position: 80% 80%;
-  padding: 190px 0;
+  background-position: bottom;
+  padding-top: 12rem !important;
+  padding-bottom: 12rem !important;
 }
 
 .contact {
