@@ -39,11 +39,13 @@
   - Poner fotos de la cocina.
 * Mejorar descripción general:
   - ~~Datos exactos del piso: metros cuadrados.~~
-  - Mejorar redacción reslatando lo excepcional del apartmento.
+  - ~~Mejorar redacción reslatando lo excepcional del apartmento.~~
 * ~~Equipamiento: poner descripción exacta.~~
 * ~~Cambiar imagen de la habana en el banner. Poner una de 23 y 12.~~
 * ~~Cambiar los precios.~~
-* Poner bien los datos de contacto.
+* ~~Poner bien los datos de contacto.~~
+* Poner el telef. de Rey con un link a abrirlo en whatsapp
+* Mejorar el CEO de la página.
 
 
 # Improvements
