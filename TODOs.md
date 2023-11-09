@@ -26,8 +26,8 @@
 
 ## TODO
 
-* Preparar diferentes versiones de una foto, dependiendo del dispositivo. (https://www.printsgicleeshop.com/image-resize-calculator/)
-* logo.
+~~* Preparar diferentes versiones de una foto, dependiendo del dispositivo. (https://www.printsgicleeshop.com/image-resize-calculator/)~~
+~~* logo.~~
 
 # 03/10/2023
 

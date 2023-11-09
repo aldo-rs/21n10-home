@@ -159,6 +159,34 @@ const PHOTOS = [
         ),
         width: 1500,
         height: 843
+    },
+    // kitchen
+    {
+        id: '4bbeebb1-d7f7-4a81-96d4-86f163c654f0',
+        src: new URL(
+            '../assets/images/appartment/4bbeebb1-d7f7-4a81-96d4-86f163c654f0.jpg?as=webp&width=973',
+            import.meta.url
+        ),
+        width: 973,
+        height: 750
+    },
+    {
+        id: '56c90a4a-224f-4009-9595-8f9aabc4c7b4',
+        src: new URL(
+            '../assets/images/appartment/56c90a4a-224f-4009-9595-8f9aabc4c7b4.jpeg?as=webp&width=1000',
+            import.meta.url
+        ),
+        width: 1000,
+        height: 750
+    },
+    {
+        id: '7d152348-01e6-49d9-945d-808a5334b2d3',
+        src: new URL(
+            '../assets/images/appartment/7d152348-01e6-49d9-945d-808a5334b2d3.jpg?as=webp&width=750',
+            import.meta.url
+        ),
+        width: 750,
+        height: 840
     }
 ];
 
