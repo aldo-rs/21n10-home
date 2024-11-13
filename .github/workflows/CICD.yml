@@ -1,4 +1,4 @@
-name: CI
+name: CI/CD - 21n10home
 
 on:
   push:
@@ -27,3 +27,9 @@ jobs:
       - name: build
         run: |
           npm run build --if-present
+      - name: Deploy on GitHubPages with secret
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: ./dist
+          token: ${{ secrets.GH_PAT }}
+          branch: gh-pages
