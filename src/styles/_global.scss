@@ -29,7 +29,9 @@ a {
 
 #gallary-1,
 #gallary-2 {
-  background-color: lighten($color-secundary, 5%);
+  background-color: lighten($color-secundary, 10%);
+  background-image: linear-gradient(lighten($color-secundary, 10%), lighten($color-secundary, 14%));
+  /*background-image: url(../assets/images/istockphoto-1465053603-1024x1024.jpg);*/
 }
 
 #gallary-1 {
