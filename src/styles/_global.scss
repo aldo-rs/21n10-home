@@ -32,6 +32,22 @@ a {
   background-color: lighten($color-secundary, 10%);
   background-image: linear-gradient(lighten($color-secundary, 10%), lighten($color-secundary, 14%));
   /*background-image: url(../assets/images/istockphoto-1465053603-1024x1024.jpg);*/
+  background: linear-gradient(rgba(246, 241, 229, 0.4), rgba(255, 255, 255, 0.7)), url("../assets/images/b6.jpeg?as=webp") scroll center center;
+  
+  /* Center and scale the image nicely */
+  
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: bottom;
+  /*max-width: 100%;
+  height: auto;
+  min-height: 50%;*/
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+  
 }
 
 #gallary-1 {
